@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64E91135AB924286BC98E710 /* Pods_TaskPrioritizingStrategyDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B360F6664A5FEC7C2427E94A /* Pods_TaskPrioritizingStrategyDemo.framework */; };
+		E26103FC2886B607008D82B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E26103FB2886B607008D82B7 /* AppDelegate.m */; };
+		E26103FF2886B607008D82B7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E26103FE2886B607008D82B7 /* SceneDelegate.m */; };
+		E26104022886B607008D82B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E26104012886B607008D82B7 /* ViewController.m */; };
+		E26104052886B607008D82B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26104032886B607008D82B7 /* Main.storyboard */; };
+		E26104072886B608008D82B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26104062886B608008D82B7 /* Assets.xcassets */; };
+		E261040A2886B608008D82B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26104082886B608008D82B7 /* LaunchScreen.storyboard */; };
+		E261040D2886B608008D82B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E261040C2886B608008D82B7 /* main.m */; };
+		E26104172886B608008D82B7 /* TaskPrioritizingStrategyDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E26104162886B608008D82B7 /* TaskPrioritizingStrategyDemoTests.m */; };
+		E26104222886B608008D82B7 /* TaskPrioritizingStrategyDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E26104212886B608008D82B7 /* TaskPrioritizingStrategyDemoUITests.m */; };
+		E26104432886B704008D82B7 /* DYWindowPopHelperConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E261043D2886B704008D82B7 /* DYWindowPopHelperConfig.m */; };
+		E26104442886B704008D82B7 /* DYWindowPopHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E261043E2886B704008D82B7 /* DYWindowPopHelper.m */; };
+		E261044C2886BACF008D82B7 /* DYWindowPopHelperTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = E26104462886BACF008D82B7 /* DYWindowPopHelperTestController.m */; };
+		E261044D2886BACF008D82B7 /* DYWindowPopHelperTestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E26104482886BACF008D82B7 /* DYWindowPopHelperTestTool.m */; };
+		E261044E2886BACF008D82B7 /* DYWindowPopTestView1.m in Sources */ = {isa = PBXBuildFile; fileRef = E26104492886BACF008D82B7 /* DYWindowPopTestView1.m */; };
+		E26104512886BC1E008D82B7 /* DYWindowPopInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E261044F2886BC1E008D82B7 /* DYWindowPopInfo.m */; };
+		E26104542886BC41008D82B7 /* DYWindowPopHelper+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = E26104532886BC41008D82B7 /* DYWindowPopHelper+Convenience.m */; };
+		E26104572886BC58008D82B7 /* DYWindowNormalPopInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E26104562886BC58008D82B7 /* DYWindowNormalPopInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E26104132886B608008D82B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26103EF2886B607008D82B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E26103F62886B607008D82B7;
+			remoteInfo = TaskPrioritizingStrategyDemo;
+		};
+		E261041E2886B608008D82B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26103EF2886B607008D82B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E26103F62886B607008D82B7;
+			remoteInfo = TaskPrioritizingStrategyDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		436688F7F73548A0468F22DB /* Pods-TaskPrioritizingStrategyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPrioritizingStrategyDemo.debug.xcconfig"; path = "Target Support Files/Pods-TaskPrioritizingStrategyDemo/Pods-TaskPrioritizingStrategyDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B360F6664A5FEC7C2427E94A /* Pods_TaskPrioritizingStrategyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskPrioritizingStrategyDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26103F72886B607008D82B7 /* TaskPrioritizingStrategyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskPrioritizingStrategyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26103FA2886B607008D82B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E26103FB2886B607008D82B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E26103FD2886B607008D82B7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E26103FE2886B607008D82B7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E26104002886B607008D82B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E26104012886B607008D82B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E26104042886B607008D82B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E26104062886B608008D82B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E26104092886B608008D82B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E261040B2886B608008D82B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E261040C2886B608008D82B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E26104122886B608008D82B7 /* TaskPrioritizingStrategyDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskPrioritizingStrategyDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26104162886B608008D82B7 /* TaskPrioritizingStrategyDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskPrioritizingStrategyDemoTests.m; sourceTree = "<group>"; };
+		E26104182886B608008D82B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E261041D2886B608008D82B7 /* TaskPrioritizingStrategyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskPrioritizingStrategyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26104212886B608008D82B7 /* TaskPrioritizingStrategyDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskPrioritizingStrategyDemoUITests.m; sourceTree = "<group>"; };
+		E26104232886B608008D82B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E261043B2886B703008D82B7 /* DYWindowPopHelperConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYWindowPopHelperConfig.h; sourceTree = "<group>"; };
+		E261043C2886B704008D82B7 /* DYWindowPopViewPerformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYWindowPopViewPerformer.h; sourceTree = "<group>"; };
+		E261043D2886B704008D82B7 /* DYWindowPopHelperConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYWindowPopHelperConfig.m; sourceTree = "<group>"; };
+		E261043E2886B704008D82B7 /* DYWindowPopHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYWindowPopHelper.m; sourceTree = "<group>"; };
+		E26104402886B704008D82B7 /* DYWindowPopHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYWindowPopHelper.h; sourceTree = "<group>"; };
+		E26104412886B704008D82B7 /* DYWindowPopMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYWindowPopMacro.h; sourceTree = "<group>"; };
+		E26104452886BACE008D82B7 /* DYWindowPopHelperTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYWindowPopHelperTestController.h; sourceTree = "<group>"; };
+		E26104462886BACF008D82B7 /* DYWindowPopHelperTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYWindowPopHelperTestController.m; sourceTree = "<group>"; };
+		E26104482886BACF008D82B7 /* DYWindowPopHelperTestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYWindowPopHelperTestTool.m; sourceTree = "<group>"; };
+		E26104492886BACF008D82B7 /* DYWindowPopTestView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYWindowPopTestView1.m; sourceTree = "<group>"; };
+		E261044A2886BACF008D82B7 /* DYWindowPopHelperTestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYWindowPopHelperTestTool.h; sourceTree = "<group>"; };
+		E261044B2886BACF008D82B7 /* DYWindowPopTestView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYWindowPopTestView1.h; sourceTree = "<group>"; };
+		E261044F2886BC1E008D82B7 /* DYWindowPopInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYWindowPopInfo.m; sourceTree = "<group>"; };
+		E26104502886BC1E008D82B7 /* DYWindowPopInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYWindowPopInfo.h; sourceTree = "<group>"; };
+		E26104522886BC40008D82B7 /* DYWindowPopHelper+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DYWindowPopHelper+Convenience.h"; sourceTree = "<group>"; };
+		E26104532886BC41008D82B7 /* DYWindowPopHelper+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DYWindowPopHelper+Convenience.m"; sourceTree = "<group>"; };
+		E26104552886BC58008D82B7 /* DYWindowNormalPopInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYWindowNormalPopInfo.h; sourceTree = "<group>"; };
+		E26104562886BC58008D82B7 /* DYWindowNormalPopInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYWindowNormalPopInfo.m; sourceTree = "<group>"; };
+		EBE3C50C8AAC46D5F6CF3CC1 /* Pods-TaskPrioritizingStrategyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPrioritizingStrategyDemo.release.xcconfig"; path = "Target Support Files/Pods-TaskPrioritizingStrategyDemo/Pods-TaskPrioritizingStrategyDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E26103F42886B607008D82B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E91135AB924286BC98E710 /* Pods_TaskPrioritizingStrategyDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E261040F2886B608008D82B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E261041A2886B608008D82B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		569C43D38B1B7EAA04546372 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B360F6664A5FEC7C2427E94A /* Pods_TaskPrioritizingStrategyDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2AED4277DE980E8F7399C8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				436688F7F73548A0468F22DB /* Pods-TaskPrioritizingStrategyDemo.debug.xcconfig */,
+				EBE3C50C8AAC46D5F6CF3CC1 /* Pods-TaskPrioritizingStrategyDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E26103EE2886B607008D82B7 = {
+			isa = PBXGroup;
+			children = (
+				E26103F92886B607008D82B7 /* TaskPrioritizingStrategyDemo */,
+				E26104152886B608008D82B7 /* TaskPrioritizingStrategyDemoTests */,
+				E26104202886B608008D82B7 /* TaskPrioritizingStrategyDemoUITests */,
+				E26103F82886B607008D82B7 /* Products */,
+				A2AED4277DE980E8F7399C8E /* Pods */,
+				569C43D38B1B7EAA04546372 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E26103F82886B607008D82B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E26103F72886B607008D82B7 /* TaskPrioritizingStrategyDemo.app */,
+				E26104122886B608008D82B7 /* TaskPrioritizingStrategyDemoTests.xctest */,
+				E261041D2886B608008D82B7 /* TaskPrioritizingStrategyDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E26103F92886B607008D82B7 /* TaskPrioritizingStrategyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E26103FA2886B607008D82B7 /* AppDelegate.h */,
+				E26103FB2886B607008D82B7 /* AppDelegate.m */,
+				E26103FD2886B607008D82B7 /* SceneDelegate.h */,
+				E26103FE2886B607008D82B7 /* SceneDelegate.m */,
+				E26104002886B607008D82B7 /* ViewController.h */,
+				E26104012886B607008D82B7 /* ViewController.m */,
+				E26104402886B704008D82B7 /* DYWindowPopHelper.h */,
+				E261043E2886B704008D82B7 /* DYWindowPopHelper.m */,
+				E261043B2886B703008D82B7 /* DYWindowPopHelperConfig.h */,
+				E261043D2886B704008D82B7 /* DYWindowPopHelperConfig.m */,
+				E26104412886B704008D82B7 /* DYWindowPopMacro.h */,
+				E261043C2886B704008D82B7 /* DYWindowPopViewPerformer.h */,
+				E26104472886BACF008D82B7 /* TestTool */,
+				E26104032886B607008D82B7 /* Main.storyboard */,
+				E26104062886B608008D82B7 /* Assets.xcassets */,
+				E26104082886B608008D82B7 /* LaunchScreen.storyboard */,
+				E261040B2886B608008D82B7 /* Info.plist */,
+				E261040C2886B608008D82B7 /* main.m */,
+			);
+			path = TaskPrioritizingStrategyDemo;
+			sourceTree = "<group>";
+		};
+		E26104152886B608008D82B7 /* TaskPrioritizingStrategyDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E26104162886B608008D82B7 /* TaskPrioritizingStrategyDemoTests.m */,
+				E26104182886B608008D82B7 /* Info.plist */,
+			);
+			path = TaskPrioritizingStrategyDemoTests;
+			sourceTree = "<group>";
+		};
+		E26104202886B608008D82B7 /* TaskPrioritizingStrategyDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E26104212886B608008D82B7 /* TaskPrioritizingStrategyDemoUITests.m */,
+				E26104232886B608008D82B7 /* Info.plist */,
+			);
+			path = TaskPrioritizingStrategyDemoUITests;
+			sourceTree = "<group>";
+		};
+		E26104472886BACF008D82B7 /* TestTool */ = {
+			isa = PBXGroup;
+			children = (
+				E26104552886BC58008D82B7 /* DYWindowNormalPopInfo.h */,
+				E26104562886BC58008D82B7 /* DYWindowNormalPopInfo.m */,
+				E26104522886BC40008D82B7 /* DYWindowPopHelper+Convenience.h */,
+				E26104532886BC41008D82B7 /* DYWindowPopHelper+Convenience.m */,
+				E26104452886BACE008D82B7 /* DYWindowPopHelperTestController.h */,
+				E26104462886BACF008D82B7 /* DYWindowPopHelperTestController.m */,
+				E26104502886BC1E008D82B7 /* DYWindowPopInfo.h */,
+				E261044F2886BC1E008D82B7 /* DYWindowPopInfo.m */,
+				E261044A2886BACF008D82B7 /* DYWindowPopHelperTestTool.h */,
+				E26104482886BACF008D82B7 /* DYWindowPopHelperTestTool.m */,
+				E261044B2886BACF008D82B7 /* DYWindowPopTestView1.h */,
+				E26104492886BACF008D82B7 /* DYWindowPopTestView1.m */,
+			);
+			path = TestTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E26103F62886B607008D82B7 /* TaskPrioritizingStrategyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26104262886B608008D82B7 /* Build configuration list for PBXNativeTarget "TaskPrioritizingStrategyDemo" */;
+			buildPhases = (
+				740605A01D7B5AE7BCB1BA9A /* [CP] Check Pods Manifest.lock */,
+				E26103F32886B607008D82B7 /* Sources */,
+				E26103F42886B607008D82B7 /* Frameworks */,
+				E26103F52886B607008D82B7 /* Resources */,
+				0C1908946959B2F352C3D0AD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaskPrioritizingStrategyDemo;
+			productName = TaskPrioritizingStrategyDemo;
+			productReference = E26103F72886B607008D82B7 /* TaskPrioritizingStrategyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E26104112886B608008D82B7 /* TaskPrioritizingStrategyDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26104292886B608008D82B7 /* Build configuration list for PBXNativeTarget "TaskPrioritizingStrategyDemoTests" */;
+			buildPhases = (
+				E261040E2886B608008D82B7 /* Sources */,
+				E261040F2886B608008D82B7 /* Frameworks */,
+				E26104102886B608008D82B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E26104142886B608008D82B7 /* PBXTargetDependency */,
+			);
+			name = TaskPrioritizingStrategyDemoTests;
+			productName = TaskPrioritizingStrategyDemoTests;
+			productReference = E26104122886B608008D82B7 /* TaskPrioritizingStrategyDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E261041C2886B608008D82B7 /* TaskPrioritizingStrategyDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E261042C2886B608008D82B7 /* Build configuration list for PBXNativeTarget "TaskPrioritizingStrategyDemoUITests" */;
+			buildPhases = (
+				E26104192886B608008D82B7 /* Sources */,
+				E261041A2886B608008D82B7 /* Frameworks */,
+				E261041B2886B608008D82B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E261041F2886B608008D82B7 /* PBXTargetDependency */,
+			);
+			name = TaskPrioritizingStrategyDemoUITests;
+			productName = TaskPrioritizingStrategyDemoUITests;
+			productReference = E261041D2886B608008D82B7 /* TaskPrioritizingStrategyDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E26103EF2886B607008D82B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E26103F62886B607008D82B7 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					E26104112886B608008D82B7 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E26103F62886B607008D82B7;
+					};
+					E261041C2886B608008D82B7 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E26103F62886B607008D82B7;
+					};
+				};
+			};
+			buildConfigurationList = E26103F22886B607008D82B7 /* Build configuration list for PBXProject "TaskPrioritizingStrategyDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E26103EE2886B607008D82B7;
+			productRefGroup = E26103F82886B607008D82B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E26103F62886B607008D82B7 /* TaskPrioritizingStrategyDemo */,
+				E26104112886B608008D82B7 /* TaskPrioritizingStrategyDemoTests */,
+				E261041C2886B608008D82B7 /* TaskPrioritizingStrategyDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E26103F52886B607008D82B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E261040A2886B608008D82B7 /* LaunchScreen.storyboard in Resources */,
+				E26104072886B608008D82B7 /* Assets.xcassets in Resources */,
+				E26104052886B607008D82B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26104102886B608008D82B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E261041B2886B608008D82B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C1908946959B2F352C3D0AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskPrioritizingStrategyDemo/Pods-TaskPrioritizingStrategyDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskPrioritizingStrategyDemo/Pods-TaskPrioritizingStrategyDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaskPrioritizingStrategyDemo/Pods-TaskPrioritizingStrategyDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		740605A01D7B5AE7BCB1BA9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaskPrioritizingStrategyDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E26103F32886B607008D82B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26104512886BC1E008D82B7 /* DYWindowPopInfo.m in Sources */,
+				E26104022886B607008D82B7 /* ViewController.m in Sources */,
+				E26104542886BC41008D82B7 /* DYWindowPopHelper+Convenience.m in Sources */,
+				E261044E2886BACF008D82B7 /* DYWindowPopTestView1.m in Sources */,
+				E26103FC2886B607008D82B7 /* AppDelegate.m in Sources */,
+				E26104442886B704008D82B7 /* DYWindowPopHelper.m in Sources */,
+				E26104432886B704008D82B7 /* DYWindowPopHelperConfig.m in Sources */,
+				E26104572886BC58008D82B7 /* DYWindowNormalPopInfo.m in Sources */,
+				E261044C2886BACF008D82B7 /* DYWindowPopHelperTestController.m in Sources */,
+				E261044D2886BACF008D82B7 /* DYWindowPopHelperTestTool.m in Sources */,
+				E261040D2886B608008D82B7 /* main.m in Sources */,
+				E26103FF2886B607008D82B7 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E261040E2886B608008D82B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26104172886B608008D82B7 /* TaskPrioritizingStrategyDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26104192886B608008D82B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26104222886B608008D82B7 /* TaskPrioritizingStrategyDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E26104142886B608008D82B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E26103F62886B607008D82B7 /* TaskPrioritizingStrategyDemo */;
+			targetProxy = E26104132886B608008D82B7 /* PBXContainerItemProxy */;
+		};
+		E261041F2886B608008D82B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E26103F62886B607008D82B7 /* TaskPrioritizingStrategyDemo */;
+			targetProxy = E261041E2886B608008D82B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E26104032886B607008D82B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E26104042886B607008D82B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E26104082886B608008D82B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E26104092886B608008D82B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E26104242886B608008D82B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E26104252886B608008D82B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E26104272886B608008D82B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 436688F7F73548A0468F22DB /* Pods-TaskPrioritizingStrategyDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CPP9BPHLP;
+				INFOPLIST_FILE = TaskPrioritizingStrategyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Slim.TaskPrioritizingStrategyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E26104282886B608008D82B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBE3C50C8AAC46D5F6CF3CC1 /* Pods-TaskPrioritizingStrategyDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CPP9BPHLP;
+				INFOPLIST_FILE = TaskPrioritizingStrategyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Slim.TaskPrioritizingStrategyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E261042A2886B608008D82B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CPP9BPHLP;
+				INFOPLIST_FILE = TaskPrioritizingStrategyDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Slim.TaskPrioritizingStrategyDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskPrioritizingStrategyDemo.app/TaskPrioritizingStrategyDemo";
+			};
+			name = Debug;
+		};
+		E261042B2886B608008D82B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CPP9BPHLP;
+				INFOPLIST_FILE = TaskPrioritizingStrategyDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Slim.TaskPrioritizingStrategyDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskPrioritizingStrategyDemo.app/TaskPrioritizingStrategyDemo";
+			};
+			name = Release;
+		};
+		E261042D2886B608008D82B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CPP9BPHLP;
+				INFOPLIST_FILE = TaskPrioritizingStrategyDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Slim.TaskPrioritizingStrategyDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaskPrioritizingStrategyDemo;
+			};
+			name = Debug;
+		};
+		E261042E2886B608008D82B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CPP9BPHLP;
+				INFOPLIST_FILE = TaskPrioritizingStrategyDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Slim.TaskPrioritizingStrategyDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaskPrioritizingStrategyDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E26103F22886B607008D82B7 /* Build configuration list for PBXProject "TaskPrioritizingStrategyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26104242886B608008D82B7 /* Debug */,
+				E26104252886B608008D82B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26104262886B608008D82B7 /* Build configuration list for PBXNativeTarget "TaskPrioritizingStrategyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26104272886B608008D82B7 /* Debug */,
+				E26104282886B608008D82B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26104292886B608008D82B7 /* Build configuration list for PBXNativeTarget "TaskPrioritizingStrategyDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E261042A2886B608008D82B7 /* Debug */,
+				E261042B2886B608008D82B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E261042C2886B608008D82B7 /* Build configuration list for PBXNativeTarget "TaskPrioritizingStrategyDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E261042D2886B608008D82B7 /* Debug */,
+				E261042E2886B608008D82B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E26103EF2886B607008D82B7 /* Project object */;
+}
